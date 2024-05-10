@@ -1,3 +1,8 @@
+///// IMPORTANTE/////////
+Dejo todo los archivos anteriores guardo carpeta completa con el proyecto correguido y funcional.
+
+
+
 //Temporizador
 
 Este es un simple temporizador de cuenta regresiva desarrollado en [lenguaje de programación] que te permite establecer un tiempo específico y te notifica cuando el tiempo ha transcurrido.

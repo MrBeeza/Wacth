@@ -1,0 +1,82 @@
+* {margin:0; padding:0; box-sizing:border-box;}
+	body{
+		background: linear-gradient(#8336b3 10%, #e7e7eb 90%) rgb(248, 230, 230);
+		height: 100vh;
+		color: rgb(14, 9, 9);
+		font-weight: bold;
+    		font-family: "Poppins", "Roboto", "Arial", sans-serif;
+		font-size: min(25px, max(4.16vw, 13px));
+
+		text-align:center;
+		padding-top: calc(50vh - 258px);
+	}
+
+	div{
+		max-width: min(330px, 55vw);
+		max-height: min(330px, 55vw);
+
+		position:relative;
+		left: 50%;
+		cursor:pointer;
+		border-radius: 50%;
+		margin-left: max(-165px, -27.5vw);
+		margin-bottom: 30px;
+	}
+	div:hover{
+		background-color: rgb(255, 255, 255, .1);
+		color: #000000;
+	}
+
+	#Circle {max-height: 500%;}
+
+
+	#Circle path {fill: none; stroke-width: 0.5;}
+	#Circle #Circulo-bg {stroke: rgb(255, 255, 255, .25);}
+	#Circle #Circulo {
+		stroke: rgb(0, 0, 0);
+		stroke-dasharray: 100, 100;
+		stroke-linecap: round;
+		transition-delay: 3s;
+	}
+
+
+	#CuentaRegresiva {
+		position: absolute;
+		top: calc(50% - 0.65em);
+		width: 100%;
+		font-size: 2em;
+		text-align: center;
+		font-family: "Poppins", "Roboto", "Arial", sans-serif;
+	}
+
+	#PausaReplay{
+		width:60%;
+		height:60%;
+		position: absolute;
+		top: 20%;
+		left: 20%;
+		display: none;
+	}
+	div:hover #PausaReplay{display: block;}
+
+	input, button{
+		background-color: transparent;
+		font-size: min(30px, max(5vw, 13px));
+		text-align:center;
+		color: rgb(3, 1, 1);
+		outline: 0;
+	    font-family: "Poppins", "Roboto", "Arial", sans-serif;
+	};
+
+	button{
+		margin-top: 50px;
+		cursor: pointer;
+		border-radius: 8px;
+		padding: 15px 30px;
+    		border: 1px solid rgb(15, 12, 12);
+	}
+    
+	input {
+		border: 0px;
+		border-bottom: 1px solid rgb(0, 0, 0);
+	}
